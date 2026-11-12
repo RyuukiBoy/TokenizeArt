@@ -1,0 +1,34 @@
+{
+  "network": "BNB Smart Chain Testnet",
+  "chainId": 97,
+  "ipfs": {
+    "address": "0x36ab44AAFEe61DeBcBcfe81Ba6dDFB076ac4D6F8",
+    "owner": "0x2B3EaF772dFf6753B9bc8EE155D0c75c2f126678",
+    "transactionHash": "0x2108b67dfbbf8b22cb5aac9f0fa0247b3c424268cfbc15c00dd31cda5d6c62f0",
+    "blockNumber": 140815935,
+    "deployedAt": "2026-11-04T18:46:28.771Z",
+    "tokenId": "1",
+    "mintOwner": "0x2B3EaF772dFf6753B9bc8EE155D0c75c2f126678",
+    "mintTransactionHash": "0xff209e3449c077a4b4dc43704faabddf4781aeff8dc6b8174fd7491c58737565",
+    "mintedBlockNumber": 140817680,
+    "metadataUri": "ipfs://bafkreianwp3yjvrbyfsm5skaozoj2mkb5qmxvqew546owmyw6fbnuqeidm",
+    "imageCid": "bafybeidbqz5l3vv3q62vcxmdyuhmi5vdan3ejo42unyx5q4d7m5vb53pxy"
+  },
+  "onChain": {
+    "address": "0xdbdFc535dF1C5839Af7673Fa1a2aDD535903c3d6",
+    "owner": "0x2B3EaF772dFf6753B9bc8EE155D0c75c2f126678",
+    "transactionHash": "0xf6751f920be6b530f6aded69430a194b045a665b7c3e178583249035453cd9ab",
+    "blockNumber": 140818370,
+    "deployedAt": "2026-11-04T19:04:44.435Z",
+    "tokenId": "1",
+    "mintOwner": "0x2B3EaF772dFf6753B9bc8EE155D0c75c2f126678",
+    "mintTransactionHash": "0x8a31ed1427ebf9760f058936aff9b82d970fbf10da3af57128a3551e100b2e24",
+    "mintedBlockNumber": 140819164,
+    "websitePublicMint": {
+      "tokenId": "2",
+      "mintOwner": "0x2B3EaF772dFf6753B9bc8EE155D0c75c2f126678",
+      "mintTransactionHash": "0x64c32361513818c8c84471467f9eeded3794bcf268f5e93c7aa8590eaa394c58",
+      "mintedBlockNumber": 140822183
+    }
+  }
+}

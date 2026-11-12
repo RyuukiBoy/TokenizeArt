@@ -1,0 +1,45 @@
+{
+  "imageCid": "bafybeidbqz5l3vv3q62vcxmdyuhmi5vdan3ejo42unyx5q4d7m5vb53pxy",
+  "metadataCid": "bafkreianwp3yjvrbyfsm5skaozoj2mkb5qmxvqew546owmyw6fbnuqeidm",
+  "imageUri": "ipfs://bafybeidbqz5l3vv3q62vcxmdyuhmi5vdan3ejo42unyx5q4d7m5vb53pxy",
+  "metadataUri": "ipfs://bafkreianwp3yjvrbyfsm5skaozoj2mkb5qmxvqew546owmyw6fbnuqeidm",
+  "imageGatewayUrls": [
+    "https://gateway.pinata.cloud/ipfs/bafybeidbqz5l3vv3q62vcxmdyuhmi5vdan3ejo42unyx5q4d7m5vb53pxy",
+    "https://ipfs.io/ipfs/bafybeidbqz5l3vv3q62vcxmdyuhmi5vdan3ejo42unyx5q4d7m5vb53pxy"
+  ],
+  "metadataGatewayUrls": [
+    "https://gateway.pinata.cloud/ipfs/bafkreianwp3yjvrbyfsm5skaozoj2mkb5qmxvqew546owmyw6fbnuqeidm",
+    "https://ipfs.io/ipfs/bafkreianwp3yjvrbyfsm5skaozoj2mkb5qmxvqew546owmyw6fbnuqeidm"
+  ],
+  "gatewayChecks": {
+    "image": [
+      {
+        "gateway": "https://gateway.pinata.cloud",
+        "url": "https://gateway.pinata.cloud/ipfs/bafybeidbqz5l3vv3q62vcxmdyuhmi5vdan3ejo42unyx5q4d7m5vb53pxy",
+        "status": 200,
+        "reachable": true
+      },
+      {
+        "gateway": "https://ipfs.io",
+        "url": "https://ipfs.io/ipfs/bafybeidbqz5l3vv3q62vcxmdyuhmi5vdan3ejo42unyx5q4d7m5vb53pxy",
+        "status": 429,
+        "reachable": false
+      }
+    ],
+    "metadata": [
+      {
+        "gateway": "https://gateway.pinata.cloud",
+        "url": "https://gateway.pinata.cloud/ipfs/bafkreianwp3yjvrbyfsm5skaozoj2mkb5qmxvqew546owmyw6fbnuqeidm",
+        "status": 200,
+        "reachable": true
+      },
+      {
+        "gateway": "https://ipfs.io",
+        "url": "https://ipfs.io/ipfs/bafkreianwp3yjvrbyfsm5skaozoj2mkb5qmxvqew546owmyw6fbnuqeidm",
+        "status": 429,
+        "reachable": false
+      }
+    ]
+  },
+  "uploadedAt": "2026-11-04T18:18:59.178Z"
+}

@@ -1,0 +1,25 @@
+**/node_modules/
+**/artifacts/
+**/cache/
+**/coverage/
+**/typechain-types/
+
+# Local credentials and environment overrides; keep templates
+**/.env
+**/.env.*
+!**/.env.example
+
+deployment/contracts/
+deployment/test/
+deployment/coverage.json
+deployment/scripts/mint/
+deployment/deployments/hardhat.json
+deployment/deployments/localhost.json
+mint/website/dist/
+mint/output/*.png
+mint/output/*.svg
+
+# OS and tool noise
+.DS_Store
+Thumbs.db
+*.log

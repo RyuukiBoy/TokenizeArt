@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b1020" />
+    <meta name="description" content="Mint the on-chain TokenizeArt 42 Neon Eagle NFT on BNB Smart Chain Testnet." />
+    <title>TokenizeArt 42 — Neon Eagle Mint</title>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="TokenizeArt home">
+          <span class="brand-mark">42</span>
+          <span>TOKENIZE<span class="brand-light">ART</span></span>
+        </a>
+        <div class="network-pill"><span class="status-dot"></span> BNB TESTNET</div>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow"><span></span> 42 SCHOOL · DIGITAL ART</p>
+            <h1>Mint a little<br /><em>forever.</em></h1>
+            <p class="lead">A geometric neon eagle with a perfectly drawn 42. Its image and metadata live inside the contract.</p>
+            <div class="hero-actions">
+              <button id="connect-button" class="button button-primary">Connect wallet <span aria-hidden="true">↗</span></button>
+              <a class="text-link" href="https://testnet.bscscan.com" target="_blank" rel="noreferrer">Explore BscScan <span aria-hidden="true">↗</span></a>
+            </div>
+            <p id="wallet-label" class="wallet-label">Connect MetaMask on BNB Smart Chain Testnet to begin.</p>
+          </div>
+          <div class="art-frame">
+            <div class="frame-orbit orbit-one"></div><div class="frame-orbit orbit-two"></div>
+            <div class="art-card"><img src="/neon-eagle.png" alt="Neon geometric eagle surrounding a large vector 42" /></div>
+            <div class="art-caption"><span>COLLECTION 001</span><span>42° / EAGLE</span></div>
+            <div class="float-chip">ON-CHAIN <span>✳</span></div>
+          </div>
+        </section>
+
+        <section class="mint-panel" aria-labelledby="mint-title">
+          <div class="panel-heading">
+            <div><p class="eyebrow">THE DROP</p><h2 id="mint-title">42 Neon Eagle</h2></div>
+            <div class="supply"><span id="supply-count">— / 42</span><span class="supply-label">MINTED</span></div>
+          </div>
+          <div class="mint-content">
+            <div class="details">
+              <p>Each token carries its own image and metadata in its on-chain URI. No external image host is needed to view the artwork.</p>
+              <div class="detail-row"><span>ARTIST</span><strong>oait-bad</strong></div>
+              <div class="detail-row"><span>NETWORK</span><strong>BNB Smart Chain Testnet</strong></div>
+              <div class="detail-row"><span>PRICE</span><strong>Free · test gas applies</strong></div>
+              <div id="status-message" class="status-message" role="status" aria-live="polite">Connect your wallet to check availability.</div>
+            </div>
+            <div class="mint-action">
+              <button id="mint-button" class="button button-mint" disabled>Connect wallet to mint <span aria-hidden="true">↗</span></button>
+              <p>One mint per wallet. You’ll confirm the transaction in MetaMask.</p>
+            </div>
+          </div>
+          <div id="result-card" class="result-card" hidden>
+            <img id="result-image" alt="Your on-chain Neon Eagle NFT" />
+            <div><p class="eyebrow">YOUR TOKEN</p><h3 id="result-name"></h3><p id="result-owner"></p><a id="transaction-link" class="text-link" target="_blank" rel="noreferrer">View transaction ↗</a></div>
+          </div>
+        </section>
+
+        <section class="how-it-works">
+          <p class="eyebrow">A SMALL PIECE OF FOREVER</p>
+          <div class="steps">
+            <article><span>01</span><h3>Connect</h3><p>MetaMask signs transactions with your wallet. This page never asks for a private key.</p></article>
+            <article><span>02</span><h3>Mint</h3><p>The contract creates a unique token and stores its owner on BNB Smart Chain.</p></article>
+            <article><span>03</span><h3>Keep</h3><p>The SVG and metadata are encoded in the token URI and can be read directly from the contract.</p></article>
+          </div>
+        </section>
+      </main>
+
+      <footer><span>© TOKENIZEART 42</span><span>BUILT FOR THE 42 SCHOOL PROJECT</span></footer>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

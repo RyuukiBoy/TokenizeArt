@@ -1,0 +1,16 @@
+{
+  "name": "42 Neon Eagle",
+  "description": "A geometric neon eagle crest with a vector-drawn 42, created for the TokenizeArt 42 collection.",
+  "image": "ipfs://bafybeidbqz5l3vv3q62vcxmdyuhmi5vdan3ejo42unyx5q4d7m5vb53pxy",
+  "artist": "oait-bad",
+  "attributes": [
+    {
+      "trait_type": "Artist",
+      "value": "oait-bad"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "TokenizeArt 42"
+    }
+  ]
+}

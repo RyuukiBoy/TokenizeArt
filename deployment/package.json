@@ -1,0 +1,33 @@
+{
+  "name": "tokenizeart-deployment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hardhat deployment and test tooling for TokenizeArt 42",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "coverage": "hardhat coverage",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy-nft.js --network localhost",
+    "deploy:testnet": "hardhat run scripts/deploy-nft.js --network bscTestnet",
+    "verify:testnet": "hardhat run scripts/verify-nft.js --network bscTestnet",
+    "ipfs:upload": "node ../mint/scripts/upload-ipfs.js",
+    "mint:testnet": "hardhat run scripts/mint/mint-nft.js --network bscTestnet",
+    "display:testnet": "hardhat run scripts/mint/display-nft.js --network bscTestnet",
+    "onchain:deploy:testnet": "hardhat run scripts/deploy-onchain.js --network bscTestnet",
+    "onchain:verify:testnet": "hardhat run scripts/verify-onchain.js --network bscTestnet",
+    "onchain:mint:testnet": "hardhat run scripts/mint/mint-onchain.js --network bscTestnet",
+    "onchain:display:testnet": "hardhat run scripts/mint/display-onchain.js --network bscTestnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@openzeppelin/contracts": "5.4.0",
+    "chai": "^4.5.0",
+    "hardhat": "^2.26.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ethers": "^6.14.4",
+    "sharp": "^0.34.2"
+  }
+}
